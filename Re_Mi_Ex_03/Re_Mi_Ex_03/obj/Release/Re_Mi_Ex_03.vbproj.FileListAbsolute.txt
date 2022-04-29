@@ -1,0 +1,12 @@
+C:\Users\CGE\documents\visual studio 2017\Projects\Re_Mi_Ex_03\Re_Mi_Ex_03\bin\Release\Re_Mi_Ex_03.exe
+C:\Users\CGE\documents\visual studio 2017\Projects\Re_Mi_Ex_03\Re_Mi_Ex_03\bin\Release\Re_Mi_Ex_03.pdb
+C:\Users\CGE\documents\visual studio 2017\Projects\Re_Mi_Ex_03\Re_Mi_Ex_03\bin\Release\Re_Mi_Ex_03.xml
+C:\Users\CGE\documents\visual studio 2017\Projects\Re_Mi_Ex_03\Re_Mi_Ex_03\obj\Release\Re_Mi_Ex_03.Form1.resources
+C:\Users\CGE\documents\visual studio 2017\Projects\Re_Mi_Ex_03\Re_Mi_Ex_03\obj\Release\Re_Mi_Ex_03.Mapa4Var.resources
+C:\Users\CGE\documents\visual studio 2017\Projects\Re_Mi_Ex_03\Re_Mi_Ex_03\obj\Release\Re_Mi_Ex_03.Resources.resources
+C:\Users\CGE\documents\visual studio 2017\Projects\Re_Mi_Ex_03\Re_Mi_Ex_03\obj\Release\Re_Mi_Ex_03.UC_Historico.resources
+C:\Users\CGE\documents\visual studio 2017\Projects\Re_Mi_Ex_03\Re_Mi_Ex_03\obj\Release\Re_Mi_Ex_03.vbproj.GenerateResource.Cache
+C:\Users\CGE\documents\visual studio 2017\Projects\Re_Mi_Ex_03\Re_Mi_Ex_03\obj\Release\Re_Mi_Ex_03.vbproj.CoreCompileInputs.cache
+C:\Users\CGE\documents\visual studio 2017\Projects\Re_Mi_Ex_03\Re_Mi_Ex_03\obj\Release\Re_Mi_Ex_03.exe
+C:\Users\CGE\documents\visual studio 2017\Projects\Re_Mi_Ex_03\Re_Mi_Ex_03\obj\Release\Re_Mi_Ex_03.xml
+C:\Users\CGE\documents\visual studio 2017\Projects\Re_Mi_Ex_03\Re_Mi_Ex_03\obj\Release\Re_Mi_Ex_03.pdb
