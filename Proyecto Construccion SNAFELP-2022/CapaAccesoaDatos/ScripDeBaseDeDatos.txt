@@ -1,0 +1,141 @@
+--Codigos SQL--
+--Creacion de tabla SQL-Server
+
+DROP TABLE [dbo].[Administrador];
+
+DROP TABLE [dbo].[Jugador];
+
+DROP TABLE [dbo].[Arbitro];
+
+DROP TABLE [dbo].[Campeonato];
+
+DROP TABLE [dbo].[Acta];
+
+DROP TABLE [dbo].[Acta_jugador];
+
+DROP TABLE [dbo].[Fecha];
+
+DROP TABLE [dbo].[Fecha_u_partidos];
+
+DROP TABLE [dbo].[Equipo];
+
+DROP TABLE [dbo].[Marcador];
+
+DROP TABLE [dbo].[Alineacion];
+
+DROP TABLE [dbo].[Partido];
+
+
+CREATE TABLE [dbo].[Administrador] (
+    [id_persona] INT NOT NULL PRIMARY KEY IDENTITY,
+    [nombre_persona] VARCHAR (100) NULL,
+    [apellido] VARCHAR (100) NULL,
+    [cedula] VARCHAR (100) NULL,
+    [usuario] VARCHAR (100) NULL,
+    [psw] VARCHAR (100) NULL 
+);
+
+CREATE TABLE [dbo].[Jugador] (
+    [id_persona] INT NOT NULL PRIMARY KEY IDENTITY,
+    [id_Equipo] INT NULL,
+    [nombre] VARCHAR (100) NULL,
+    [apellido] VARCHAR (100) NULL,
+    [cedula] VARCHAR (100) NULL,
+    [numero] SMALLINT NULL,
+    [FechaNacimiento] datetime NULL,
+    [Nacionalidad] SMALLINT NULL,
+    [Foto] byte NULL
+);
+
+CREATE TABLE [dbo].[Arbitro] (
+    [id_persona] INT NOT NULL PRIMARY KEY IDENTITY,
+    [usuario] VARCHAR (100) NULL,
+    [psw] VARCHAR (100) NULL,
+    [nombre_persona] VARCHAR (100) NULL,
+    [apellido] VARCHAR (100) NULL,
+    [cedula] VARCHAR (100) NULL,
+    [licencia] VARCHAR (100) NULL,
+    [FechaNacimiento] datetime NULL,
+    [Nacionalidad] SMALLINT NULL,
+    [Foto] byte NULL
+);
+
+CREATE TABLE [dbo].[Campeonato] (
+    [id_campeonato] INT NOT NULL PRIMARY KEY IDENTITY,
+    [nombre] VARCHAR (100) NULL,
+    [fechas] datetime NULL 
+);
+
+CREATE TABLE [dbo].[Acta] (
+    [id_acta] INT NOT NULL PRIMARY KEY IDENTITY,
+    [fecha] datetime NULL,
+    [id_partido] INT NULL,
+    [marcador_acta] INT NULL,
+    [id_equipo] INT NULL,
+    [id_equipo] INT NULL 
+);
+
+CREATE TABLE [dbo].[Acta_jugador] (
+    [id_acta] INT NOT NULL PRIMARY KEY IDENTITY,
+    [id_partido] INT NULL,   
+    [id_Equipoequipo] INT NULL,
+    [id_jugador] INT NULL,
+    [Tarjeta_roja] Int NULL,
+    [Tarjeta_Amarilla] INT NULL,
+);
+
+CREATE TABLE [dbo].[Fecha] (
+    [id_fecha] INT NOT NULL PRIMARY KEY IDENTITY,
+    [partidos] INT NULL,
+    [numero_fecha] INT NULL,
+    [fechainicio] DATETIME NULL,
+    [fechafin] DATETIME NULL 
+);
+
+CREATE TABLE [dbo].[Equipo] (
+    [id_equipo] INT NOT NULL PRIMARY KEY IDENTITY,
+    [Nombre] VARCHAR NULL,
+	[Logo] Byte Null 
+);
+
+//llaves principapes 
+/* ALTER TABLE Campeonato ADD CONSTRAINT [FK_Campeonato_fechas] FOREIGN KEY ([fechas]) REFERENCES [fecha]([id_fecha]);
+ALTER TABLE Campeonato_u_fechas ADD CONSTRAINT [FK_Campeonato_u_fechas_id_campeonato] FOREIGN KEY ([id_campeonato]) REFERENCES [campeonato]([id_campeonato])
+ALTER TABLE Campeonato_u_fechas ADD CONSTRAINT [FK_Campeonato_u_fechas_id_fecha] FOREIGN KEY ([id_fecha]) REFERENCES [fecha]([id_fecha])
+
+
+ALTER TABLE Acta ADD CONSTRAINT [FK_Acta_fecha] FOREIGN KEY ([fecha]) REFERENCES [fecha]([id_fecha]);
+ALTER TABLE Acta ADD CONSTRAINT [FK_Acta_partido] FOREIGN KEY ([partido]) REFERENCES [partido]([id_partido]);
+ALTER TABLE Acta ADD CONSTRAINT [FK_Acta_marcador_acta] FOREIGN KEY ([marcador_acta]) REFERENCES [marcador]([id_marcador]);
+ALTER TABLE Acta ADD CONSTRAINT [FK_Acta_equipoa_acta] FOREIGN KEY ([equipoa_acta]) REFERENCES [equipo]([id_equipo]);
+ALTER TABLE Acta ADD CONSTRAINT [FK_Acta_equipob_acta] FOREIGN KEY ([equipob_acta]) REFERENCES [equipo]([id_equipo]);
+
+ALTER TABLE Fecha ADD CONSTRAINT [FK_Fecha_partidos] FOREIGN KEY ([partidos]) REFERENCES [partido]([id_partido]);
+ALTER TABLE Fecha_u_partidos ADD CONSTRAINT [FK_Fecha_u_partidos_id_fecha] FOREIGN KEY ([id_fecha]) REFERENCES [fecha]([id_fecha])
+ALTER TABLE Fecha_u_partidos ADD CONSTRAINT [FK_Fecha_u_partidos_id_partido] FOREIGN KEY ([id_partido]) REFERENCES [partido]([id_partido])
+
+
+ALTER TABLE Equipo ADD CONSTRAINT [FK_Equipo_jugadores] FOREIGN KEY ([jugadores]) REFERENCES [jugador]([id_persona]);
+
+ALTER TABLE Partido ADD CONSTRAINT [FK_Partido_equipoa_partido] FOREIGN KEY ([equipoa_partido]) REFERENCES [equipo]([id_equipo]);
+ALTER TABLE Partido ADD CONSTRAINT [FK_Partido_equipob_partido] FOREIGN KEY ([equipob_partido]) REFERENCES [equipo]([id_equipo]);
+ALTER TABLE Partido ADD CONSTRAINT [FK_Partido_marcador_partido] FOREIGN KEY ([marcador_partido]) REFERENCES [marcador]([id_marcador]);
+ALTER TABLE Partido ADD CONSTRAINT [FK_Partido_arbitroprincipal] FOREIGN KEY ([arbitroprincipal]) REFERENCES [arbitro]([id_persona]); */
+
+//Ingreso de datos
+INSERT INTO [dbo].[Administrador]([id_persona],[nombre_persona],[apellido],[cedula],[usuario],[psw])  VALUES (1,'Marjorie','Falcone',0955678730,'Marjorie Falcone',12345;
+
+INSERT INTO [dbo].[Jugador] ([id_persona],[id_Equipo],[nombre],[apellido],[cedula],[numero],[FechaNacimiento],[Nacionalidad],[Foto]) VALUES (1,1,'Marcos','Bayas',0967894534,10,'3/9/1989','Ecuador');
+
+INSERT INTO [dbo].[Arbitro] ([id_persona],[usuario],[psw],[nombre_persona],[apellido],[cedula],[licencia],[FechaNacimiento],[Nacionalidad],[Foto]) VALUES (1,'Marcos Bayas','Marcos','Bayas',0945637282,782828738,'3/4/1976','Peruano');
+  
+INSERT INTO [dbo].[Campeonato] ([id_campeonato],[nombre],[fechas]) VALUES (1,'Prueba','11/1/2022'); 
+
+INSERT INTO [dbo].[Acta] ([id_acta],[fecha],[id_partido],[marcador_acta],[id_equipo],[id_equipo]) VALUES (1,'11/1/2022',1,'0-1',1,2);
+
+INSERT INTO [dbo].[Acta_jugador] ([id_acta],[id_partido],[id_Equipoequipo],[id_jugador],[Tarjeta_roja],[Tarjeta_Amarilla]) VALUES (1,1,1,1,0,1);
+
+INSERT INTO [dbo].[Fecha] ([id_fecha],[partidos],[numero_fecha],[fechainicio],[fechafin]) VALUES (1,a,1,'1/1/2021','2/1/2021') ;
+ 
+INSERT INTO [dbo].[Equipo] ([id_equipo],[Nombre],[Logo]) VALUES (1,'Emelec');
+INSERT INTO [dbo].[Equipo] ([id_equipo],[Nombre],[Logo]) VALUES (2,'Barcelona');

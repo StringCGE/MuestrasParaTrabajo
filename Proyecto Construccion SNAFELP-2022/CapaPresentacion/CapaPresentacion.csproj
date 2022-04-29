@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{897C264D-DD66-4DF4-928B-E1211AB93096}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CapaPresentacion</RootNamespace>
+    <AssemblyName>CapaPresentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CRUD\Division4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\Division4.Designer.cs">
+      <DependentUpon>Division4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\Division8.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\Division8.Designer.cs">
+      <DependentUpon>Division8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucFechaModificar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucFechaModificar.Designer.cs">
+      <DependentUpon>ucFechaModificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucItemPartido.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucItemPartido.Designer.cs">
+      <DependentUpon>ucItemPartido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucJugadorModificar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucJugadorModificar.Designer.cs">
+      <DependentUpon>ucJugadorModificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucPartidoModificar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucPartidoModificar.Designer.cs">
+      <DependentUpon>ucPartidoModificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucPartido.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucPartido.Designer.cs">
+      <DependentUpon>ucPartido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucFecha.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucFecha.Designer.cs">
+      <DependentUpon>ucFecha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\UC_Login.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Login\UC_Login.Designer.cs">
+      <DependentUpon>UC_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login\UC_Session.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Login\UC_Session.Designer.cs">
+      <DependentUpon>UC_Session.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PanelDeControl\UC_PanelDeControlGeneral.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PanelDeControl\UC_PanelDeControlGeneral.Designer.cs">
+      <DependentUpon>UC_PanelDeControlGeneral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucAdministrador.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucAdministrador.Designer.cs">
+      <DependentUpon>ucAdministrador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucJugador.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucJugador.Designer.cs">
+      <DependentUpon>ucJugador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucArbitro.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucArbitro.Designer.cs">
+      <DependentUpon>ucArbitro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucCampeonato.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucCampeonato.Designer.cs">
+      <DependentUpon>ucCampeonato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucActa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucActa.Designer.cs">
+      <DependentUpon>ucActa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucEquipo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucEquipo.Designer.cs">
+      <DependentUpon>ucEquipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucAdministradorConsultar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucAdministradorConsultar.Designer.cs">
+      <DependentUpon>ucAdministradorConsultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucJugadorConsultar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucJugadorConsultar.Designer.cs">
+      <DependentUpon>ucJugadorConsultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucArbitroConsultar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucArbitroConsultar.Designer.cs">
+      <DependentUpon>ucArbitroConsultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucCampeonatoConsultar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucCampeonatoConsultar.Designer.cs">
+      <DependentUpon>ucCampeonatoConsultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucActaConsultar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucActaConsultar.Designer.cs">
+      <DependentUpon>ucActaConsultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucEquipoConsultar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucEquipoConsultar.Designer.cs">
+      <DependentUpon>ucEquipoConsultar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucAdministradorModificar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucAdministradorModificar.Designer.cs">
+      <DependentUpon>ucAdministradorModificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucArbitroModificar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucArbitroModificar.Designer.cs">
+      <DependentUpon>ucArbitroModificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucCampeonatoModificar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucCampeonatoModificar.Designer.cs">
+      <DependentUpon>ucCampeonatoModificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucEquipoModificar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucEquipoModificar.Designer.cs">
+      <DependentUpon>ucEquipoModificar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRUD\ucActaReporte.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CRUD\ucActaReporte.Designer.cs">
+      <DependentUpon>ucActaReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UC_Pantalla.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Pantalla.Designer.cs">
+      <DependentUpon>UC_Pantalla.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CRUD\Division4.resx">
+      <DependentUpon>Division4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\Division8.resx">
+      <DependentUpon>Division8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucFechaModificar.resx">
+      <DependentUpon>ucFechaModificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucItemPartido.resx">
+      <DependentUpon>ucItemPartido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucJugadorModificar.resx">
+      <DependentUpon>ucJugadorModificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucPartidoModificar.resx">
+      <DependentUpon>ucPartidoModificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucPartido.resx">
+      <DependentUpon>ucPartido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucFecha.resx">
+      <DependentUpon>ucFecha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\UC_Login.resx">
+      <DependentUpon>UC_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login\UC_Session.resx">
+      <DependentUpon>UC_Session.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PanelDeControl\UC_PanelDeControlGeneral.resx">
+      <DependentUpon>UC_PanelDeControlGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucAdministrador.resx">
+      <DependentUpon>ucAdministrador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucJugador.resx">
+      <DependentUpon>ucJugador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucArbitro.resx">
+      <DependentUpon>ucArbitro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucCampeonato.resx">
+      <DependentUpon>ucCampeonato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucActa.resx">
+      <DependentUpon>ucActa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucEquipo.resx">
+      <DependentUpon>ucEquipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucAdministradorConsultar.resx">
+      <DependentUpon>ucAdministradorConsultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucJugadorConsultar.resx">
+      <DependentUpon>ucJugadorConsultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucArbitroConsultar.resx">
+      <DependentUpon>ucArbitroConsultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucCampeonatoConsultar.resx">
+      <DependentUpon>ucCampeonatoConsultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucActaConsultar.resx">
+      <DependentUpon>ucActaConsultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucEquipoConsultar.resx">
+      <DependentUpon>ucEquipoConsultar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucAdministradorModificar.resx">
+      <DependentUpon>ucAdministradorModificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucArbitroModificar.resx">
+      <DependentUpon>ucArbitroModificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucCampeonatoModificar.resx">
+      <DependentUpon>ucCampeonatoModificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucEquipoModificar.resx">
+      <DependentUpon>ucEquipoModificar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRUD\ucActaReporte.resx">
+      <DependentUpon>ucActaReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UC_Pantalla.resx">
+      <DependentUpon>UC_Pantalla.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaLogicadeNegocio\CapaLogicadeNegocio.csproj">
+      <Project>{44e39681-2d6d-486c-afdb-adab085900ff}</Project>
+      <Name>CapaLogicadeNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Fondo2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\usuario.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Assets\lupa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\anadir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\editar-texto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\regreso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\imprimir-contorno-del-boton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\loteria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\diskette %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Fondo1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

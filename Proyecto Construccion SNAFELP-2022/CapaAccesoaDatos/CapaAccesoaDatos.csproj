@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FA7A12EB-7B0E-4189-AC35-E4BB214CB819}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CapaAccesoaDatos</RootNamespace>
+    <AssemblyName>CapaAccesoaDatos</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClsManejador.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlServer.cs" />
+    <Content Include="StoredProcedure\SP_Acta_EliminacionLogica.sql" />
+    <Content Include="StoredProcedure\SP_Administrador_EliminacionLogica.sql" />
+    <Content Include="StoredProcedure\SP_Administrador_Psw_By_User.sql" />
+    <Content Include="StoredProcedure\SP_Administrador_Psw.sql" />
+    <Content Include="StoredProcedure\SP_Arbitro_BuscarPorUsuario.sql" />
+    <Content Include="StoredProcedure\SP_Arbitro_EliminacionLogica.sql" />
+    <Content Include="StoredProcedure\SP_Arbitro_psw_By_User.sql" />
+    <Content Include="StoredProcedure\SP_Arbitro_psw.sql" />
+    <Content Include="StoredProcedure\SP_Campeonato_EliminacionLogica.sql" />
+    <Content Include="StoredProcedure\SP_Equipo_EliminacionLogica.sql" />
+    <Content Include="StoredProcedure\SP_Fecha_BuscarPorID_Campeonato.sql" />
+    <Compile Include="Validaciones.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="StoredProcedure\SP_Acta_BuscarPorID.sql" />
+    <Content Include="StoredProcedure\SP_Acta_Eliminar.sql" />
+    <Content Include="StoredProcedure\SP_Acta_Insertar.sql" />
+    <Content Include="StoredProcedure\SP_Acta_ListarTodo.sql" />
+    <Content Include="StoredProcedure\SP_Acta_Modificar.sql" />
+    <Content Include="StoredProcedure\SP_Administrador_BuscarPorID.sql" />
+    <Content Include="StoredProcedure\SP_Administrador_Eliminar.sql" />
+    <Content Include="StoredProcedure\SP_Administrador_Insertar.sql" />
+    <Content Include="StoredProcedure\SP_Administrador_ListarTodo.sql" />
+    <Content Include="StoredProcedure\SP_Administrador_Modificar.sql" />
+    <Content Include="StoredProcedure\SP_Arbitro_BuscarPorID.sql" />
+    <Content Include="StoredProcedure\SP_Arbitro_Eliminar.sql" />
+    <Content Include="StoredProcedure\SP_Arbitro_Insertar.sql" />
+    <Content Include="StoredProcedure\SP_Arbitro_ListarTodo.sql" />
+    <Content Include="StoredProcedure\SP_Arbitro_Modificar.sql" />
+    <Content Include="StoredProcedure\SP_Campeonato_BuscarPorID.sql" />
+    <Content Include="StoredProcedure\SP_Campeonato_Eliminar.sql" />
+    <Content Include="StoredProcedure\SP_Campeonato_Insertar.sql" />
+    <Content Include="StoredProcedure\SP_Campeonato_ListarTodo.sql" />
+    <Content Include="StoredProcedure\SP_Campeonato_Modificar.sql" />
+    <Content Include="StoredProcedure\SP_Equipo_BuscarPorID.sql" />
+    <Content Include="StoredProcedure\SP_Equipo_Eliminar.sql" />
+    <Content Include="StoredProcedure\SP_Equipo_Insertar.sql" />
+    <Content Include="StoredProcedure\SP_Equipo_ListarTodo.sql" />
+    <Content Include="StoredProcedure\SP_Equipo_Modificar.sql" />
+    <Content Include="StoredProcedure\SP_Fecha_BuscarPorID.sql" />
+    <Content Include="StoredProcedure\SP_Fecha_EliminacionLogica.sql" />
+    <Content Include="StoredProcedure\SP_Fecha_Eliminar.sql" />
+    <Content Include="StoredProcedure\SP_Fecha_Insertar.sql" />
+    <Content Include="StoredProcedure\SP_Fecha_ListarTodo.sql" />
+    <Content Include="StoredProcedure\SP_Fecha_Modificar.sql" />
+    <Content Include="StoredProcedure\SP_Jugador_BuscarPorID.sql" />
+    <Content Include="StoredProcedure\SP_jugador_BuscarPorID_Equipo.sql" />
+    <Content Include="StoredProcedure\SP_Jugador_EliminacionLogica.sql" />
+    <Content Include="StoredProcedure\SP_Jugador_Eliminar.sql" />
+    <Content Include="StoredProcedure\SP_Jugador_Insertar.sql" />
+    <Content Include="StoredProcedure\SP_Jugador_ListarTodo.sql" />
+    <Content Include="StoredProcedure\SP_Jugador_Modificar.sql" />
+    <Content Include="StoredProcedure\SP_Marcador_BuscarPorID.sql" />
+    <Content Include="StoredProcedure\SP_Marcador_EliminacionLogica.sql" />
+    <Content Include="StoredProcedure\SP_Marcador_Eliminar.sql" />
+    <Content Include="StoredProcedure\SP_Marcador_Insertar.sql" />
+    <Content Include="StoredProcedure\SP_Marcador_ListarTodo.sql" />
+    <Content Include="StoredProcedure\SP_Marcador_Modificar.sql" />
+    <Content Include="StoredProcedure\SP_Partido_BuscarPorID_Fecha.sql" />
+    <Content Include="StoredProcedure\SP_Partido_BuscarPorID.sql" />
+    <Content Include="StoredProcedure\SP_Partido_BuscarPorID_Todo.sql" />
+    <Content Include="StoredProcedure\SP_Partido_EliminacionLogica.sql" />
+    <Content Include="StoredProcedure\SP_Partido_Eliminar.sql" />
+    <Content Include="StoredProcedure\SP_Partido_Insertar.sql" />
+    <Content Include="StoredProcedure\SP_Partido_ListarTodo.sql" />
+    <Content Include="StoredProcedure\SP_Partido_Modificar.sql" />
+    <Content Include="StoredProcedure\SP_Persona_BuscarPorID.sql" />
+    <Content Include="StoredProcedure\SP_Persona_EliminacionLogica.sql" />
+    <Content Include="StoredProcedure\SP_Persona_Eliminar.sql" />
+    <Content Include="StoredProcedure\SP_Persona_Insertar.sql" />
+    <Content Include="StoredProcedure\SP_Persona_ListarTodo.sql" />
+    <Content Include="StoredProcedure\SP_Persona_Modificar.sql" />
+    <Content Include="TablasSQL.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Excepciones_SNAFELP\Excepciones_SNAFELP.csproj">
+      <Project>{f67462b1-e208-41ea-89c4-617998e3b8b1}</Project>
+      <Name>Excepciones_SNAFELP</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

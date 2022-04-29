@@ -1,0 +1,12 @@
+Alter PROCEDURE SP_Partido_ListarTodo
+AS
+BEGIN
+    BEGIN TRY
+        BEGIN TRANSACTION
+            SELECT * From Partido WHERE eliminado = 0;
+        COMMIT TRANSACTION
+    END TRY
+    BEGIN CATCH
+        ROLLBACK TRANSACTION
+    END CATCH
+END;

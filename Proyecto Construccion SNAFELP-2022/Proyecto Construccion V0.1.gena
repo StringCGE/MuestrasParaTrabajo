@@ -1,0 +1,72 @@
+
+<generador>
+    <config>
+        <SeCreaArchivosVS value="True"/>
+        <ConnectionString value="Data Source=.;Initial Catalog=Base;Integrated Security=True"/>
+        <PrefijoTodo value=""/>
+    </config>
+    <tdas>
+        <tda nombre="Persona" tipo="0" hereda="">
+            <variable nombre="id_Persona" espk="True" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="int"/>
+            <variable nombre="nombre" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="string"/>
+            <variable nombre="apellido" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="string"/>
+            <variable nombre="cedula" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="string"/>
+        </tda>
+        <tda nombre="Administrador" tipo="0" hereda="Persona">
+            <variable nombre="usuario" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="string"/>
+            <variable nombre="psw" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="string"/>
+        </tda>
+        <tda nombre="Jugador" tipo="0" hereda="Persona">
+            <variable nombre="numero" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="ushort"/>
+        </tda>
+        <tda nombre="Arbitro" tipo="0" hereda="Administrador">
+            <variable nombre="licencia" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="string"/>
+        </tda>
+        <tda nombre="Campeonato" tipo="0" hereda="">
+            <variable nombre="id_Campeonato" espk="True" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="int"/>
+            <variable nombre="nombre" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="string"/>
+            <variable nombre="fechas" espk="False" eslista="True" usacheckbox="False" entostring="False" displaymember="False" tipo="Fecha"/>
+        </tda>
+        <tda nombre="Acta" tipo="0" hereda="">
+            <variable nombre="id_Acta" espk="True" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="int"/>
+            <variable nombre="fecha" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="Fecha"/>
+            <variable nombre="partido" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="Partido"/>
+            <variable nombre="marcador" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="Marcador"/>
+            <variable nombre="equipoa" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="Equipo"/>
+            <variable nombre="equipob" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="Equipo"/>
+        </tda>
+        <tda nombre="Fecha" tipo="0" hereda="">
+            <variable nombre="id_Fecha" espk="True" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="int"/>
+            <variable nombre="partidos" espk="False" eslista="True" usacheckbox="False" entostring="False" displaymember="False" tipo="Partido"/>
+            <variable nombre="numero_fecha" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="int"/>
+            <variable nombre="fechainicio" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="DateTime"/>
+            <variable nombre="fechafin" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="DateTime"/>
+        </tda>
+        <tda nombre="Equipo" tipo="0" hereda="">
+            <variable nombre="id_Equipo" espk="True" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="int"/>
+            <variable nombre="jugadores" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="Jugador"/>
+        </tda>
+        <tda nombre="Marcador" tipo="0" hereda="">
+            <variable nombre="id_Marcador" espk="True" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="int"/>
+            <variable nombre="goleaequipoa" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="ushort"/>
+            <variable nombre="golesequipob" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="ushort"/>
+        </tda>
+        <tda nombre="TipoAlineacion" tipo="0" hereda="">
+            <variable nombre="id_TipoAlineacion" espk="True" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="int"/>
+            <variable nombre="nombre_alineacion" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="string"/>
+        </tda>
+        <tda nombre="Alineacion" tipo="0" hereda="">
+            <variable nombre="id_Alineacion" espk="True" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="int"/>
+            <variable nombre="tipo_alineacion" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="TipoAlineacion"/>
+            <variable nombre="jugador_alineacion" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="Jugador"/>
+            <variable nombre="equipo" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="Equipo"/>
+        </tda>
+        <tda nombre="Partido" tipo="0" hereda="">
+            <variable nombre="id_Partido" espk="True" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="int"/>
+            <variable nombre="equipoa" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="Equipo"/>
+            <variable nombre="equipob" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="Equipo"/>
+            <variable nombre="marcador" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="Marcador"/>
+            <variable nombre="arbitroprincipal" espk="False" eslista="False" usacheckbox="False" entostring="False" displaymember="False" tipo="Arbitro"/>
+        </tda>
+    </tdas>
+</generador>
