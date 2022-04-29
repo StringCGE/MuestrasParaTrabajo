@@ -1,0 +1,14 @@
+c:\users\cge\documents\visual studio 2017\Projects\Requerimientos JSON\Requerimientos JSON\bin\Debug\Requerimientos JSON.exe.config
+c:\users\cge\documents\visual studio 2017\Projects\Requerimientos JSON\Requerimientos JSON\bin\Debug\Requerimientos JSON.exe
+c:\users\cge\documents\visual studio 2017\Projects\Requerimientos JSON\Requerimientos JSON\bin\Debug\Requerimientos JSON.pdb
+c:\users\cge\documents\visual studio 2017\Projects\Requerimientos JSON\Requerimientos JSON\bin\Debug\Requerimientos JSON.xml
+c:\users\cge\documents\visual studio 2017\Projects\Requerimientos JSON\Requerimientos JSON\obj\Debug\Requerimientos JSON.vbprojResolveAssemblyReference.cache
+c:\users\cge\documents\visual studio 2017\Projects\Requerimientos JSON\Requerimientos JSON\obj\Debug\Requerimientos_JSON.Form1.resources
+c:\users\cge\documents\visual studio 2017\Projects\Requerimientos JSON\Requerimientos JSON\obj\Debug\Requerimientos_JSON.Resources.resources
+c:\users\cge\documents\visual studio 2017\Projects\Requerimientos JSON\Requerimientos JSON\obj\Debug\Requerimientos_JSON.UC_Requerimiento.resources
+c:\users\cge\documents\visual studio 2017\Projects\Requerimientos JSON\Requerimientos JSON\obj\Debug\Requerimientos JSON.vbproj.GenerateResource.Cache
+c:\users\cge\documents\visual studio 2017\Projects\Requerimientos JSON\Requerimientos JSON\obj\Debug\Requerimientos JSON.vbproj.CoreCompileInputs.cache
+c:\users\cge\documents\visual studio 2017\Projects\Requerimientos JSON\Requerimientos JSON\obj\Debug\Requerimientos JSON.exe
+c:\users\cge\documents\visual studio 2017\Projects\Requerimientos JSON\Requerimientos JSON\obj\Debug\Requerimientos JSON.xml
+c:\users\cge\documents\visual studio 2017\Projects\Requerimientos JSON\Requerimientos JSON\obj\Debug\Requerimientos JSON.pdb
+C:\Users\CGE\documents\visual studio 2017\Projects\Requerimientos JSON\Requerimientos JSON\obj\Debug\Requerimientos_JSON.UC_Cargando.resources
