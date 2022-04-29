@@ -1,0 +1,87 @@
+c:\users\cge\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\bin\Debug\Visualizador de DB.exe
+c:\users\cge\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\bin\Debug\Visualizador de DB.pdb
+c:\users\cge\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\bin\Debug\Visualizador de DB.xml
+c:\users\cge\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador de DB.vbprojResolveAssemblyReference.cache
+c:\users\cge\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Form1.resources
+c:\users\cge\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Resources.resources
+c:\users\cge\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador de DB.vbproj.GenerateResource.Cache
+c:\users\cge\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador de DB.vbproj.CoreCompileInputs.cache
+c:\users\cge\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador de DB.exe
+c:\users\cge\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador de DB.xml
+c:\users\cge\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador de DB.pdb
+C:\Users\CGE\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.OpenFileDialogCGE.resources
+C:\Users\CGE\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Agregar_tabla.resources
+C:\Users\CGE\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Desde_Archivo.resources
+C:\Users\CGE\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Editar.resources
+C:\Users\CGE\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Registros.resources
+C:\Users\CGE\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Ver_contenido.resources
+C:\Users\CGE\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\bin\Debug\Visualizador de DB.exe.config
+C:\Users\CGE\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\bin\Debug\EntityFramework.dll
+C:\Users\CGE\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CGE\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\bin\Debug\System.Data.SQLite.dll
+C:\Users\CGE\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\CGE\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\CGE\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\bin\Debug\EntityFramework.xml
+C:\Users\CGE\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CGE\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\bin\Debug\System.Data.SQLite.xml
+C:\Users\CGE\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\CGE\documents\visual studio 2017\Projects\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Columnas.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\bin\Debug\Visualizador de DB.exe.config
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\bin\Debug\Visualizador de DB.exe
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\bin\Debug\Visualizador de DB.pdb
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\bin\Debug\Visualizador de DB.xml
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\bin\Debug\EntityFramework.dll
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\bin\Debug\System.Data.SQLite.dll
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\bin\Debug\EntityFramework.xml
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\bin\Debug\System.Data.SQLite.xml
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador de DB.vbprojResolveAssemblyReference.cache
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Agregar_tabla.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Columnas.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Desde_Archivo.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Editar.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Form1.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Resources.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.OpenFileDialogCGE.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Registros.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Ver_contenido.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador de DB.vbproj.GenerateResource.Cache
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador de DB.vbproj.CoreCompileInputs.cache
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador de DB.exe
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador de DB.xml
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador de DB.pdb
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Sistema contable\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.NumberRichTextBox.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\bin\Debug\Visualizador de DB.exe.config
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\bin\Debug\Visualizador de DB.exe
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\bin\Debug\Visualizador de DB.pdb
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\bin\Debug\Visualizador de DB.xml
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\bin\Debug\EntityFramework.dll
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\bin\Debug\System.Data.SQLite.dll
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\bin\Debug\EntityFramework.xml
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\bin\Debug\System.Data.SQLite.xml
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador de DB.vbprojResolveAssemblyReference.cache
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Agregar_tabla.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Columnas.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Desde_Archivo.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Editar.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Form1.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Resources.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.NumberRichTextBox.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.OpenFileDialogCGE.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Registros.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.Ver_contenido.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador de DB.vbproj.GenerateResource.Cache
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador de DB.vbproj.CoreCompileInputs.cache
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador de DB.exe
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador de DB.xml
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador de DB.pdb
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 SQL lite y my\Visualizador de DB\Visualizador de DB\obj\Debug\Visualizador_de_DB.ErrrorMsg.resources
