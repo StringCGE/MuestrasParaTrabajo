@@ -1,0 +1,11 @@
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Todo Relacionado Arduino\UserControl_MonitorSerial\UserControl_MonitorSerial\bin\Release\UserControl_MonitorSerial.exe
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Todo Relacionado Arduino\UserControl_MonitorSerial\UserControl_MonitorSerial\bin\Release\UserControl_MonitorSerial.pdb
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Todo Relacionado Arduino\UserControl_MonitorSerial\UserControl_MonitorSerial\bin\Release\UserControl_MonitorSerial.xml
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Todo Relacionado Arduino\UserControl_MonitorSerial\UserControl_MonitorSerial\obj\Release\UserControl_MonitorSerial.Form1.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Todo Relacionado Arduino\UserControl_MonitorSerial\UserControl_MonitorSerial\obj\Release\UserControl_MonitorSerial.Monitor_serial.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Todo Relacionado Arduino\UserControl_MonitorSerial\UserControl_MonitorSerial\obj\Release\UserControl_MonitorSerial.Resources.resources
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Todo Relacionado Arduino\UserControl_MonitorSerial\UserControl_MonitorSerial\obj\Release\UserControl_MonitorSerial.vbproj.GenerateResource.Cache
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Todo Relacionado Arduino\UserControl_MonitorSerial\UserControl_MonitorSerial\obj\Release\UserControl_MonitorSerial.vbproj.CoreCompileInputs.cache
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Todo Relacionado Arduino\UserControl_MonitorSerial\UserControl_MonitorSerial\obj\Release\UserControl_MonitorSerial.exe
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Todo Relacionado Arduino\UserControl_MonitorSerial\UserControl_MonitorSerial\obj\Release\UserControl_MonitorSerial.xml
+C:\Users\CGE\Documents\Visual Studio 2017\Projects\01 Todo Relacionado Arduino\UserControl_MonitorSerial\UserControl_MonitorSerial\obj\Release\UserControl_MonitorSerial.pdb
